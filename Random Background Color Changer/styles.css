@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --jordy-blue: #88B6F2;
+  --perano: #B3CFF2;
+  --dark-purple: #110815;
+  --light-grey: #efefef;
+}
+
+body {
+  background-color: var(--light-grey);
+  color: var(--dark-purple);
+  text-align: center;
+  border: 1px solid black;
+}
+
+.bg-container {
+  margin: 15px 0 25px;
+  font-size: 1.2rem;
+
+}
+
+.btn {
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  color: var(--dark-purple);
+  background-color: var(--jordy-blue);
+  background-image: linear-gradient(#88B6F2, #B3CFF2);
+  border-color: var(--jordy-blue);
+  border-width: 3px;
+}
+
+.btn:hover {
+  background-image: linear-gradient(#88B6F2, #B3CFF2);
+}
